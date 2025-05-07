@@ -2,8 +2,6 @@ def read_and_modify_file():
     try:
         # Ask the user for a filename (Error Handling Lab)
         input_file = input("Enter the filename to read from: ")
-
-        # Read the file
         with open(input_file, 'r') as file:
             lines = file.readlines()
 
